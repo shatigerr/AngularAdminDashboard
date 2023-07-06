@@ -1,0 +1,16 @@
+<section class=" w-60 bg-bgSideBar border-r-2" *ngIf="show; else elseBlock">
+
+    <div class="flex justify-end">
+        <mat-icon (click)="showSideBar()" fontIcon="arrow_back"></mat-icon>
+    </div>
+    
+    <app-side-bar-element [link]="'workers'" [icon]="'groups'" [title]="'Workers'"></app-side-bar-element>
+    <app-side-bar-element [link]="'projects'"  [icon]="'analytics'" [title]="'Project'"></app-side-bar-element>
+    <app-side-bar-element [link]="'expenses'" [icon]="'payments'" [title]="'Expenses'"></app-side-bar-element>
+    
+
+</section>
+
+<ng-template #elseBlock>
+    <mat-icon (click)="showSideBar()" fontIcon="arrow_forward"></mat-icon>
+</ng-template>

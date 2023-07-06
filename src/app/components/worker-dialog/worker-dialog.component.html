@@ -1,0 +1,42 @@
+<mat-dialog-content>
+    <header>
+        <h2>Add a Worker</h2>
+    </header>
+    <p>
+        <mat-form-field>
+            <mat-label>Id</mat-label>
+            <input [(ngModel)]="id" matInput type="text">
+            <mat-icon matSuffix>person</mat-icon>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input [(ngModel)]="name" matInput type="text">
+            <mat-icon matSuffix>person</mat-icon>
+        </mat-form-field>
+    </p>
+
+    <p>
+        <mat-form-field>
+            <mat-label>Department</mat-label>
+            <input [(ngModel)]="department" matInput type="text">
+            <mat-icon matSuffix>work</mat-icon>
+        </mat-form-field>
+    </p>
+
+    <p>
+        <mat-form-field>
+            <mat-label>Active</mat-label>
+            <mat-select [(ngModel)]="active">
+                <mat-option value="true">True</mat-option>
+                <mat-option value="false">False</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </p>
+
+    <button matDialogClose  class="cancel m-5">Cancel</button>
+    <button class="save" matDialogClose (click)="saveWorker()">Save</button>
+
+    
+</mat-dialog-content>

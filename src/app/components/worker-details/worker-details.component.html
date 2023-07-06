@@ -1,0 +1,9 @@
+<section>
+
+    <input class="border-2"  type="text" [(ngModel)]="worker.username" placeholder="{{worker.username}}"/>
+    <input class="border-2" value="{{worker.department}}"/>
+    <input class="border-2 " value="{{worker.active}}"/>
+    
+
+    <a (click)="modifyWorker(worker)" href="/workers"><button class="bg-bgSideBar" >Modify</button></a>
+</section>

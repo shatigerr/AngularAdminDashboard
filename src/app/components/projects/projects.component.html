@@ -1,0 +1,29 @@
+<section *ngIf="isLoading" class="flex w-screen h-screen justify-center items-center">
+    <mat-progress-spinner
+        [mode]="mode"
+        [value]="value">
+    </mat-progress-spinner>
+</section>
+<section>
+
+    <article class="flex flex-wrap justify-around gap-4">
+        <div class="w-80" *ngFor="let project of projects">
+            <app-project  [project]="project"></app-project>
+        </div>
+    
+        
+    </article>
+
+    <article class="flex justify-center align-bottom">
+        <h1>{{ totalAmountF(projects) }}</h1>
+    </article>
+
+    <div class="w-full flex justify-center">
+        <div class="chart-container">
+            
+            <canvas class="inline" id="piechart"></canvas>
+        </div>
+
+    </div>
+</section>
+

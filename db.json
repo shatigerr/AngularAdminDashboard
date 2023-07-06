@@ -1,0 +1,226 @@
+{
+  "workers": [
+    {
+      "id": 2,
+      "username": "dani",
+      "department": "HR",
+      "active": false
+    },
+    {
+      "id": "15",
+      "username": "pau",
+      "department": "IT",
+      "active": "true"
+    },
+    {
+      "id": "20",
+      "username": "ainara",
+      "department": "UX",
+      "active": "true"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "WebApp",
+      "description": "web app with angular",
+      "tasks": [
+        {
+          "id": 1,
+          "task": "Learn Angular"
+        }
+      ],
+      "expenses": [
+        {
+          "id": 1,
+          "amount": 2300
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MobileApp",
+      "description": "mobile app with React Native",
+      "tasks": [
+        {
+          "id": 1,
+          "task": "Design UI"
+        },
+        {
+          "id": 2,
+          "task": "Implement authentication"
+        }
+      ],
+      "expenses": [
+        {
+          "id": 1,
+          "amount": 1500
+        },
+        {
+          "id": 2,
+          "amount": 2000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "E-commerce Website",
+      "description": "online store using Magento",
+      "tasks": [
+        {
+          "id": 1,
+          "task": "Setup product catalog"
+        },
+        {
+          "id": 2,
+          "task": "Configure payment gateway"
+        },
+        {
+          "id": 3,
+          "task": "Implement order tracking"
+        }
+      ],
+      "expenses": [
+        {
+          "id": 1,
+          "amount": 5000
+        },
+        {
+          "id": 2,
+          "amount": 3000
+        },
+        {
+          "id": 3,
+          "amount": 1000
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Data Analysis Tool",
+      "description": "tool for analyzing large datasets",
+      "tasks": [
+        {
+          "id": 1,
+          "task": "Data preprocessing"
+        },
+        {
+          "id": 2,
+          "task": "Implement statistical models"
+        },
+        {
+          "id": 3,
+          "task": "Visualize results"
+        },
+        {
+          "id": 4,
+          "task": "Generate reports"
+        }
+      ],
+      "expenses": [
+        {
+          "id": 1,
+          "amount": 4000
+        },
+        {
+          "id": 2,
+          "amount": 2500
+        },
+        {
+          "id": 3,
+          "amount": 1500
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Blog Platform",
+      "description": "platform for creating and managing blogs",
+      "tasks": [
+        {
+          "id": 1,
+          "task": "Implement user authentication"
+        },
+        {
+          "id": 2,
+          "task": "Create blog post editor"
+        },
+        {
+          "id": 3,
+          "task": "Implement comments functionality"
+        },
+        {
+          "id": 4,
+          "task": "Optimize performance"
+        }
+      ],
+      "expenses": [
+        {
+          "id": 1,
+          "amount": 3000
+        },
+        {
+          "id": 2,
+          "amount": 2000
+        },
+        {
+          "id": 3,
+          "amount": 500
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Inventory Management System",
+      "description": "system for tracking and managing inventory",
+      "tasks": [
+        {
+          "id": 1,
+          "task": "Create database schema"
+        },
+        {
+          "id": 2,
+          "task": "Implement barcode scanning"
+        },
+        {
+          "id": 3,
+          "task": "Generate inventory reports"
+        },
+        {
+          "id": 4,
+          "task": "Implement reorder functionality"
+        },
+        {
+          "id": 5,
+          "task": "Integrate with accounting system"
+        }
+      ],
+      "expenses": [
+        {
+          "id": 1,
+          "amount": 6000
+        },
+        {
+          "id": 2,
+          "amount": 3500
+        },
+        {
+          "id": 3,
+          "amount": 2000
+        },
+        {
+          "id": 4,
+          "amount": 200
+        },
+        {
+          "id": 4,
+          "amount": 200
+        },
+        {
+          "id": 4,
+          "amount": 200
+        }
+      ]
+    }
+  ]
+}

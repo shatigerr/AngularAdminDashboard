@@ -1,0 +1,10 @@
+section{
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+}
+
+td, tr,th{
+    
+    margin: 35px;
+}
